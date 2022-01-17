@@ -4,14 +4,30 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Weight Kilo to Pounds</title>
-    <link rel="stylesheet" href="/DOM LAB/DOM LAB 1/Weight Kilogram To Pounds/css/style.css">
+    <title>Weight Kilogram to Pounds Converter</title>
+    <link rel="stylesheet" href="./css/style.css">
     
 <body>
     <main>
      
-        <div>
-   
+        <div id="container">
+            <form method="post" action="#">
+                <label for="name">Enter Name:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="text" for="name" id="name"> <br>
+                <div id="errormessage1"></div>
+
+                <p> Kilogram to Pounds </p> 
+
+                <label for="Weight">Enter Weight In (KG):</label>
+                <input type="text" for="number2" id="Weight"> <br> <br>
+                <div id="errormessage2"></div>
+
+                <button type="button" id="submit">Calculate</button>
+
+                <div id="results"></div>
+
+
+            </form>
         </div>
     </main>
  <script src="js/app.js"></script>   
