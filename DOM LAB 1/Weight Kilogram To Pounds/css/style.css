@@ -1,0 +1,26 @@
+
+/* CSS Reset  */
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+main
+{
+    width:100%;
+    height: 100vh;
+    background-color: tomato;
+    display:grid;
+    grid-template-columns: 1fr;
+}
+
+div
+{
+    width:40%;
+    height: 60vh;
+    background-color: white;
+    justify-self: center;
+    align-self: center;
+}
