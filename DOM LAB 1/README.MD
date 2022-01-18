@@ -12,3 +12,23 @@
 
 * The web application should then convert the person’s weight in pounds and display the answer to the user on the web page. NOTE, 1 kilogram = 2.2 pounds.*
 
+## Question 3: Grades App Calculator ##
+
+* Develop a web application that requests a student name, number and the student’s exam score out of 100 via a form. 
+
+* Your application is then to match the exam score to a letter grade and output the grade to the console. Calculate the letter grade as follows:
+
+     Exam score
+
+
+     90 and above
+* A   80–89.99
+* B   70–79.99
+* C   60–69.99
+* D   below 60
+* F
+
+
+
+
+
